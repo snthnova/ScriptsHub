@@ -1,0 +1,5347 @@
+-- ts file was generated at discord.gg/25ms
+
+game.CoreGui:FindFirstChild('PSX_LoadingScreen')
+game.CoreGui:FindFirstChild('PSX_LoadingScreen'):Destroy()
+game:GetService('TweenService')
+
+local _call13 = Instance.new('ScreenGui')
+
+_call13.Parent = game.CoreGui
+_call13.Name = 'PSX_LoadingScreen'
+_call13.IgnoreGuiInset = true
+
+local _call16 = Instance.new('Frame')
+
+_call16.Size = UDim2.new(1, 0, 1, 0)
+_call16.Position = UDim2.new(0, 0, 0, 0)
+_call16.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+_call16.Parent = _call13
+
+local _call24 = Instance.new('TextLabel')
+
+_call24.Size = UDim2.new(1, 0, 0, 50)
+_call24.Position = UDim2.new(0, 0, 0.15, 0)
+_call24.Text = 'Adopt Me Script 2025'
+_call24.TextSize = 30
+_call24.Font = Enum.Font.DenkOne
+_call24.BackgroundTransparency = 1
+_call24.Parent = _call16
+_call24.TextScaled = true
+_call24.TextStrokeTransparency = 0
+_call24.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+_call24.TextYAlignment = Enum.TextYAlignment.Center
+_call24.TextColor3 = Color3.fromRGB(196, 112, 160)
+
+local _call38 = Instance.new('TextLabel')
+
+_call38.Size = UDim2.new(1, 0, 0, 50)
+_call38.Position = UDim2.new(0, 0, 0.3, 0)
+_call38.Text = '[Updated] Trade Scam'
+_call38.TextSize = 30
+_call38.Font = Enum.Font.DenkOne
+_call38.BackgroundTransparency = 1
+_call38.Parent = _call16
+_call38.TextScaled = true
+_call38.TextStrokeTransparency = 0
+_call38.TextStrokeColor3 = Color3.fromRGB(0, 0, 0)
+_call38.TextYAlignment = Enum.TextYAlignment.Center
+_call38.TextColor3 = Color3.fromRGB(0, 255, 0)
+
+local _call52 = Instance.new('Frame')
+
+_call52.Size = UDim2.new(0, 500, 0, 30)
+_call52.Position = UDim2.new(0.5, -250, 0.5, 0)
+_call52.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+_call52.Parent = _call16
+
+local _call60 = Instance.new('UICorner')
+
+_call60.CornerRadius = UDim.new(1, 0)
+_call60.Parent = _call52
+
+local _call64 = Instance.new('Frame')
+
+_call64.Size = UDim2.new(0, 0, 1, 0)
+_call64.BackgroundColor3 = Color3.fromRGB(255, 223, 0)
+_call64.Parent = _call52
+
+local _call70 = Instance.new('UICorner')
+
+_call70.CornerRadius = UDim.new(1, 0)
+_call70.Parent = _call64
+
+local _call74 = Instance.new('TextLabel')
+
+_call74.Size = UDim2.new(1, 0, 1, 0)
+_call74.Text = '0%'
+_call74.TextSize = 18
+_call74.Font = Enum.Font.GothamBold
+_call74.TextColor3 = Color3.fromRGB(255, 255, 255)
+_call74.BackgroundTransparency = 1
+_call74.Parent = _call52
+_call74.ZIndex = 2
+
+local _call82 = Instance.new('TextLabel')
+
+_call82.Size = UDim2.new(1, 0, 0, 20)
+_call82.Position = UDim2.new(0, 0, 0.6, 0)
+_call82.Text = 'Initializing assets...'
+_call82.TextSize = 16
+_call82.Font = Enum.Font.SourceSans
+_call82.BackgroundTransparency = 1
+_call82.TextColor3 = Color3.fromRGB(150, 150, 150)
+_call82.Parent = _call16
+
+local _call92 = Instance.new('TextLabel')
+
+_call92.Size = UDim2.new(1, 0, 0, 20)
+_call92.Position = UDim2.new(0, 0, 0.7, 0)
+_call92.Text = 'Note: Trades only work with High Tier Pets'
+_call92.TextSize = 16.5
+_call92.Font = Enum.Font.SourceSansItalic
+_call92.BackgroundTransparency = 1
+_call92.TextColor3 = Color3.fromRGB(255, 0, 0)
+_call92.Parent = _call16
+
+local _call102 = Instance.new('TextLabel')
+
+_call102.Size = UDim2.new(1, 0, 0, 20)
+_call102.Position = UDim2.new(0, 0, 0.75, 0)
+_call102.Text = 'discord: @revamp2796'
+_call102.TextSize = 16.5
+_call102.Font = Enum.Font.SourceSans
+_call102.BackgroundTransparency = 1
+_call102.TextColor3 = Color3.fromRGB(0, 150, 255)
+_call102.Parent = _call16
+_call64.Size = UDim2.new(0.00008503873832523822, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.00024640006013214587, 0, 1, 0)
+_call74.Text = '0%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/6814584'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.00044178799726068974, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.00048626293428242204, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0005306261125952005, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0005680610425770283, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0006066134199500083, 0, 1, 0)
+_call74.Text = '0%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/2726971'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0006715378724038601, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0007175213657319545, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0007561296224594116, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.000793788069859147, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.000835972186177969, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0008755302987992764, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0009274363052099943, 0, 1, 0)
+_call74.Text = '0%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/2840460'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0009795099962502719, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.001022699847817421, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0010685157030820847, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0011077944654971361, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0011501461733132601, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0011878605000674725, 0, 1, 0)
+_call74.Text = '0%'
+_call82.Text = '/AdoptMe/Players/Assets/ID/2325621'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.001243342412635684, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0012816154398024083, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0013245817739516498, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.001362687163054943, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0013998986221849918, 0, 1, 0)
+_call74.Text = '0%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/3699527'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0014543189201503993, 0, 1, 0)
+_call74.Text = '0%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/9403088'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0015101919416338205, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.001552431983873248, 0, 1, 0)
+_call74.Text = '0%'
+_call82.Text = '/AdoptMe/Players/Assets/ID/7046391'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0016039468813687564, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0016539532225579023, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.001692896755412221, 0, 1, 0)
+_call74.Text = '0%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/7770577'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0017518986482173205, 0, 1, 0)
+_call74.Text = '0%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/8082666'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0018033018335700036, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0018502351827919482, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0018918047193437816, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0019399113953113556, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.001978240255266428, 0, 1, 0)
+_call74.Text = '0%'
+_call82.Text = '/AdoptMe/UI/Assets/ID/5351861'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0020331634674221276, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0020734479185193777, 0, 1, 0)
+_call74.Text = '0%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/9039386'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0021302148699760435, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0021849704440683126, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0022425755392760038, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0022878885734826326, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0023367215879261495, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.002378905704244971, 0, 1, 0)
+_call74.Text = '0%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/2318803'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.002457686699926853, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.002497021295130253, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0025426695588976144, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.002579378103837371, 0, 1, 0)
+_call74.Text = '0%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/9307813'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.002633798448368907, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0026731889229267836, 0, 1, 0)
+_call74.Text = '0%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/9235557'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0027278886176645757, 0, 1, 0)
+_call74.Text = '0%'
+_call82.Text = '/AdoptMe/Players/Assets/ID/6344492'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0027794594410806895, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0028232079930603504, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.002868968015536666, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0029178010299801826, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.002960599772632122, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0029997108969837425, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0030450238846242428, 0, 1, 0)
+_call74.Text = '0%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/5150420'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0030966505873948336, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0031472156755626202, 0, 1, 0)
+_call74.Text = '0%'
+_call82.Text = '/AdoptMe/UI/Assets/ID/3196121'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0032063293270766734, 0, 1, 0)
+_call74.Text = '0%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/8650272'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0032659458462148904, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0033205896615982056, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0033690874464809895, 0, 1, 0)
+_call74.Text = '0%'
+_call82.Text = '/AdoptMe/Players/Assets/ID/5747653'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0034337883815169336, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0034782633185386656, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0035310633014887572, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0035700068343430757, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.00361291728913784, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0036609122063964604, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.003709856979548931, 0, 1, 0)
+_call74.Text = '0%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/8479281'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0037828830536454916, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.003830766212195158, 0, 1, 0)
+_call74.Text = '0%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/4566580'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0038896005135029554, 0, 1, 0)
+_call74.Text = '0%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/3987771'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.003951172577217221, 0, 1, 0)
+_call74.Text = '0%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/3924295'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.00400458718650043, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0040504589676857, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.004101191647350788, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.00414566658437252, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.004185336409136653, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.004223665315657854, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.004266575817018748, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.004311330104246736, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0043512234464287754, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.004394413297995925, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0044415142387151715, 0, 1, 0)
+_call74.Text = '0%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/2222602'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.004503589170053601, 0, 1, 0)
+_call74.Text = '0%'
+_call82.Text = '/AdoptMe/UI/Assets/ID/4087010'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.00456298217177391, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.004602875513955951, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.004639751696959138, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.004677019035443664, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.004723002528771758, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.004769153660163283, 0, 1, 0)
+_call74.Text = '0%'
+_call82.Text = '/AdoptMe/UI/Assets/ID/6927151'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.004827429214492441, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0048667638096958395, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.00491956383921206, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.004967055888846517, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.005012145405635238, 0, 1, 0)
+_call74.Text = '0%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/7529298'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.005120539059862495, 0, 1, 0)
+_call74.Text = '0%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/5317833'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0051880336832255125, 0, 1, 0)
+_call74.Text = '0%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/7796589'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.005254410859197378, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.005300673702731728, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.005350624211132526, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.005391411483287811, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.005437618494033814, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.005483993096277118, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.005526400730013847, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.005570596270263195, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.005611998168751598, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.005655411537736655, 0, 1, 0)
+_call74.Text = '0%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/6229198'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.005706982314586639, 0, 1, 0)
+_call74.Text = '0%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/8424950'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.005779673112556338, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.005839904258027673, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.005891754431650043, 0, 1, 0)
+_call74.Text = '0%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/9408853'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.005950365215539932, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.005997186806052923, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.006041270634159446, 0, 1, 0)
+_call74.Text = '0%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/3257775'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.006092059193179011, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.006130779208615422, 0, 1, 0)
+_call74.Text = '0%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/4728705'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.006189054762944579, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.006236826209351421, 0, 1, 0)
+_call74.Text = '0%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/7529691'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.006289402721449733, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0063303576316684484, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.006368016079068184, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.006407294794917107, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.006471604667603969, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0065283157862722875, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.006581842107698322, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.006637994525954127, 0, 1, 0)
+_call74.Text = '0%'
+_call82.Text = '/AdoptMe/Players/Assets/ID/1885819'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.006696102442219853, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.006746108829975128, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.006787734199315309, 0, 1, 0)
+_call74.Text = '0%'
+_call82.Text = '/AdoptMe/UI/Assets/ID/1668369'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.006852770410478115, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.006899480242282152, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.006949151400476694, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.006989771081134677, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.007040447881445288, 0, 1, 0)
+_call74.Text = '0%'
+_call82.Text = '/AdoptMe/UI/Assets/ID/1204312'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.007109283469617367, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.007173872692510486, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.007220191415399313, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.007266789535060525, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.007307688565924763, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.007351101888343692, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.007393844751641154, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.007440219353884459, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.007481900649145246, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.007527716550976038, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.007566324807703495, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.007609011791646481, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.007658235915005207, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.007696788292378187, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.007739754673093557, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.007778977509588003, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.007829207368195057, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.00787982833571732, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.007923353416845202, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.007973471516743302, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.00801805816590786, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.008064265176653863, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.008108851825818419, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.008150980109348893, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.00818981183692813, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.00823199599981308, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.008274068357422948, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.008315805532038211, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.008359274733811617, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.008398218220099807, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.008442693157121539, 0, 1, 0)
+_call74.Text = '0%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/3759751'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.008496219525113702, 0, 1, 0)
+_call74.Text = '0%'
+_call82.Text = '/AdoptMe/Players/Assets/ID/5327535'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.008564161090180277, 0, 1, 0)
+_call74.Text = '0%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/1988675'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.008631152845919133, 0, 1, 0)
+_call74.Text = '0%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/2238907'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.008686020178720355, 0, 1, 0)
+_call74.Text = '0%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/7281709'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.008744183974340559, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.008783239219337702, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.008820730028674006, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.008861684938892722, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.008899063989520072, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.008949684957042337, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.008989634178578853, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.00903405323624611, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.009071935154497623, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.009112554835155606, 0, 1, 0)
+_call74.Text = '0%'
+_call82.Text = '/AdoptMe/Players/Assets/ID/8580254'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.00917898784391582, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.009230111679062247, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.009271625336259604, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.009311462799087167, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.00935169137082994, 0, 1, 0)
+_call74.Text = '0%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/1886971'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.009402815159410239, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.009447345975786448, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.009502101549878716, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.009550711093470454, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.009594068536534906, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.009633961878716946, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.009677375201135874, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.009722576476633549, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.009769230475649237, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.009807671094313264, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.00985957714729011, 0, 1, 0)
+_call74.Text = '0%'
+_call82.Text = '/AdoptMe/Players/Assets/ID/5641544'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.009918523160740733, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.00995674030855298, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.009994175238534807, 0, 1, 0)
+_call74.Text = '0%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.010036303522065282, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.010074744140729308, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/UI/Assets/ID/3652700'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.010124135902151466, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Players/Assets/ID/5022531'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.010173360025510192, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.01021096259355545, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0102522527333349, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.010289967060089111, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.010336732771247626, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/4023112'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.010392270563170315, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0104320521466434, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.010472001368179917, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.010521728359162808, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.010566538525745272, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.010618500411510468, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.010669233137741685, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0107159988489002, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/5270581'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.010768631240352988, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.010811262344941498, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.010852943640202284, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/8282664'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.010909878229722381, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.010951615357771515, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.010989273805171252, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.011033134115859867, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.011070289695635439, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.011116217309609055, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.011171028716489673, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.011222040792927147, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/UI/Assets/ID/2081637'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.011285568447783589, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.011339485924690963, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/4468935'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.011401672568172216, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/9157205'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.011463300511240958, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/7114746'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.011524984333664178, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.011574152577668428, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.011620471347123384, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.011665057996287942, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.011707800859585404, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.01175931580364704, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/1755335'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.011845918977633119, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/1462724'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0119120167568326, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.011954145040363073, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Players/Assets/ID/9120094'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.012009124085307122, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.012050637742504478, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.012089860578998923, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.012126960279420018, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/2965728'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.012174955196678638, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.012213731091469527, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/6318952'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.012273906357586383, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.012314693629741668, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.01235860981978476, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/5533137'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.012416773661971092, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/1409043'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.012481083488091826, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0125350009649992, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.01258260477334261, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.012627414939925075, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/8452605'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.01268496415577829, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.012732288613915444, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.012778495624661445, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.012822244176641106, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.012865657545626163, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.01290622134692967, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Players/Assets/ID/2729784'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.012967067072167993, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.013020425802096725, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.013061213120818139, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.013099486147984863, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/1804077'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.013168042339384557, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/7708794'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.013236766122281552, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.013282917253673077, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Players/Assets/ID/2938067'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.013344768714159728, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.013388405507430434, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.013426957931369544, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.013469533156603574, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.013518086820840835, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.013565969979390502, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/5438315'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.013627709681168198, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.013667603023350239, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/UI/Assets/ID/6204454'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.013730124942958355, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/5123184'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.013806447479873895, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.013866399228572846, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.01393914590589702, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/2083633'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.014005802432075143, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.01404960686340928, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0140935231000185, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.014157777046784758, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.014202028466388582, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/4032951'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.014255778351798653, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Players/Assets/ID/9008793'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.014318411983549596, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.01436534533277154, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.014408982172608376, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.01445362470112741, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.014511118037626147, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.014564588526263833, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.014609510451555252, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.014654544088989497, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.014699019026011229, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.014752657152712345, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.014797746669501066, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.014843227295204996, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.014888596208766102, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.014940390503033996, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/8882500'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.015008611464872956, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.015054874308407306, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/1416563'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.015126615250483155, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Players/Assets/ID/5916517'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.01519472450017929, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.015236238157376647, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.015275460993871092, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.015322841331362724, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/5519176'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.015377149917185307, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Players/Assets/ID/9406971'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.015453137224540114, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/UI/Assets/ID/8014410'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.015508898487314581, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.015550300385802985, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/UI/Assets/ID/6827584'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.015599580435082316, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/3169011'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.01564886043779552, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/9893817'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.015698252152651547, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.015745353139936923, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.015790833765640853, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.01584195760078728, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Players/Assets/ID/3268345'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.015909340465441346, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.015958117600530387, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.016000190004706382, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.01603896585293114, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0160844465252012, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.016128306835889818, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/5112654'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.016186750028282404, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/UI/Assets/ID/6888242'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0162465900182724, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.01628709794022143, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.01633352842181921, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.016382417315617202, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/7824736'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.01644572145305574, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.016503550065681338, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/6624465'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.016586744971573354, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.016643120860680937, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.01668815449811518, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/6547164'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0167554815299809, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.01680129738524556, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.01684448723681271, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.016892314562574028, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.01694382946006954, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Players/Assets/ID/3118773'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.01700428407639265, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.017045071395114065, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/1660834'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.01709563648328185, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.01715229172259569, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.01720380666665733, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/1708660'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.017257221275940537, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.017301416816189887, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.017353658098727465, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0174002003390342, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.017441378720104695, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/5486362'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.017504850495606662, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/7753198'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.017563126049935818, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/1418291'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.017617266997694968, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.017660959716886283, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.017704093689098956, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/7521288'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.017768124165013433, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/9076931'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.01783735086210072, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.01788590452633798, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.017932502599433065, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.017980609275400638, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.018019049940630794, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/3223458'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.01807676674798131, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.018126214388757944, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/3558165'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.018187507102265955, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.018232987727969885, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.01828221185132861, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.01832808363251388, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/UI/Assets/ID/4701490'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.01838127472437918, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/3391706'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.018435974419116975, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.018483410635963083, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.01852525952272117, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.018567276047542693, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.018604208109900357, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/4548152'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.01866114269942045, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/1029947'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.018712713522836565, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.018757244292646646, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.018794623343273996, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.01884105382487178, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/2235332'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.01889173067174852, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.01894089891575277, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/1846750'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.018991799233481287, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.019039850076660515, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.01908583356998861, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/UI/Assets/ID/7520496'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.019147517392411828, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.019188416423276067, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.01923328246921301, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.019275969453155996, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.019322455814108252, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.019383133901283146, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.019443979626521467, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.019484152318909764, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.019532929500564934, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/9815115'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.019583326950669288, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/4246846'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.01963808252476156, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.019679987290874123, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.01972597078420222, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.019768378417938947, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/4411326'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.019823692692443728, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.019864256493747234, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Players/Assets/ID/6606526'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.01992024127393961, 0, 1, 0)
+_call74.Text = '1%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/9903331'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.019971365109086037, 0, 1, 0)
+_call74.Text = '1%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02000986160710454, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.020051934011280536, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02009043050929904, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.020134067349135875, 0, 1, 0)
+_call74.Text = '2%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/4026258'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02018580576404929, 0, 1, 0)
+_call74.Text = '2%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/1495894'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.020241064159199594, 0, 1, 0)
+_call74.Text = '2%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/7089195'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.020293361321091653, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.020340909250080585, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.020386557513847946, 0, 1, 0)
+_call74.Text = '2%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/7894235'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.020472378470003605, 0, 1, 0)
+_call74.Text = '2%'
+_call82.Text = '/AdoptMe/UI/Assets/ID/4917617'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02055613216944039, 0, 1, 0)
+_call74.Text = '2%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/2361013'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02063955059275031, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.020711012184619904, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.020765153132379054, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.020824322663247585, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.020882933447137476, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02094176774844527, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0210017753764987, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.021063068090006708, 0, 1, 0)
+_call74.Text = '2%'
+_call82.Text = '/AdoptMe/Players/Assets/ID/9146135'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.021142743015661835, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.021212919522076844, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02127376524731517, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.021334610972553493, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.021395959565415977, 0, 1, 0)
+_call74.Text = '2%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/6992986'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.021471220534294844, 0, 1, 0)
+_call74.Text = '2%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/8832911'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.021548660518601537, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02161280275322497, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.021670128498226405, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02173069482669234, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.021793440263718367, 0, 1, 0)
+_call74.Text = '2%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/9985726'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.021875741193071008, 0, 1, 0)
+_call74.Text = '2%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/8481709'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02195681296288967, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02202106695622206, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.022088114591315388, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02214935142546892, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02220997363328934, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02226523207500577, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.022323116520419718, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02238569427281618, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02244542255066335, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.022487550787627698, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.022531522857025265, 0, 1, 0)
+_call74.Text = '2%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/7713513'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.022586837178096175, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.022627847967669368, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.022672211145982148, 0, 1, 0)
+_call74.Text = '2%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/2619138'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.022731213085353374, 0, 1, 0)
+_call74.Text = '2%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/5508778'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02279339972883463, 0, 1, 0)
+_call74.Text = '2%'
+_call82.Text = '/AdoptMe/UI/Assets/ID/8475321'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.022846758458763362, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.022886595921590924, 0, 1, 0)
+_call74.Text = '2%'
+_call82.Text = '/AdoptMe/UI/Assets/ID/2370249'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.022946380078792572, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0229868880007416, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02302929563447833, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02306868610903621, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.023120033415034415, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.023166799172759055, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02321026837453246, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02325748107396066, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.023297653766348958, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.023350230278447272, 0, 1, 0)
+_call74.Text = '2%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/4409643'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02341057313606143, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02345532742328942, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.023503601737320422, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.023571208072826266, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.023622331907972693, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.023668371280655263, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02372547350823879, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.023772127460688353, 0, 1, 0)
+_call74.Text = '2%'
+_call82.Text = '/AdoptMe/Players/Assets/ID/1155640'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.023832582077011465, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.023878286220133306, 0, 1, 0)
+_call74.Text = '2%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/3573071'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.023945892602205275, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02399668116122484, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02404724624939263, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.024094682466238738, 0, 1, 0)
+_call74.Text = '2%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/2233106'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.024171619582921265, 0, 1, 0)
+_call74.Text = '2%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/7755932'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.024229001207277178, 0, 1, 0)
+_call74.Text = '2%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/5495208'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02428431548178196, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.024337618332356214, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.024391703447327016, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.024433608213439584, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.024496241845190524, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.024588488228619098, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02466648695990443, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.024709620932117104, 0, 1, 0)
+_call74.Text = '2%'
+_call82.Text = '/AdoptMe/UI/Assets/ID/5387372'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02476175045594573, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.024801755556836724, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02484019617550075, 0, 1, 0)
+_call74.Text = '2%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/1041566'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02489551049657166, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.024935459671542048, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02498384574428201, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.025022230483591555, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.025060056522488595, 0, 1, 0)
+_call74.Text = '2%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/2060155'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.025111180357635023, 0, 1, 0)
+_call74.Text = '2%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/3711109'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02516168956644833, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02520007435232401, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.025238403212279083, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.025282095931470395, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.025321262935176492, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02535987119190395, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02540110545232892, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.025439825467765333, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02547821025364101, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.025516874389722943, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.025554365152493118, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02559442613273859, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.025633090268820526, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.025669910572469236, 0, 1, 0)
+_call74.Text = '2%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/8084525'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.025728521402925253, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.025767576601356267, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02580836392007768, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02584753092378378, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.025885971542447806, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02592519442550838, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02596413791179657, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.026003025565296413, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.026042527751997113, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02608113600872457, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.026125666825100778, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.026166174747049808, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.026206738594919444, 0, 1, 0)
+_call74.Text = '2%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/8116472'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.026258979877457022, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02629797924309969, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02634290112182498, 0, 1, 0)
+_call74.Text = '2%'
+_call82.Text = '/AdoptMe/Players/Assets/ID/2026266'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.026394248427823185, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.026444534165784718, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02649649609811604, 0, 1, 0)
+_call74.Text = '2%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/9343196'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02655817992053926, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02659768210723996, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.026640816079452633, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.026680318312719463, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.026722670067101717, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02676753611303866, 0, 1, 0)
+_call74.Text = '2%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/3546823'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.026818939298391343, 0, 1, 0)
+_call74.Text = '2%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/6566967'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.026876376755535603, 0, 1, 0)
+_call74.Text = '2%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/6398601'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.026932193897664547, 0, 1, 0)
+_call74.Text = '2%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/6303068'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.026988681545481084, 0, 1, 0)
+_call74.Text = '2%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/1898676'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.027041537407785653, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.027083106944337486, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.027125738048925995, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02716954252682626, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02720932411029935, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.027252066973596813, 0, 1, 0)
+_call74.Text = '2%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/1784105'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.027306878427043556, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02734923018142581, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.027388229547068477, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.027429687324911356, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.027470586355775595, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.027512435242533682, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.027552831452339888, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.027599206054583193, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.027641557808965444, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.027681060042232274, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.027727546403184533, 0, 1, 0)
+_call74.Text = '2%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/4532480'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.027779564168304204, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02781817242503166, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.027861976902931927, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.027900808630511163, 0, 1, 0)
+_call74.Text = '2%'
+_call82.Text = '/AdoptMe/UI/Assets/ID/5787623'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.027955731842666864, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.027994842920452356, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.028042055619880556, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02808250770904124, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.028151957876980306, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.028225710289552806, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02829588679596782, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.028359805513173342, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.028426406159996986, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.028498314740136265, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.028569832211360335, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0286312366835773, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02869096491485834, 0, 1, 0)
+_call74.Text = '2%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/9400411'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.028757733199745415, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02881064494140446, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02887199353426695, 0, 1, 0)
+_call74.Text = '2%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/4427154'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02896775989793241, 0, 1, 0)
+_call74.Text = '2%'
+_call82.Text = '/AdoptMe/UI/Assets/ID/6309725'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.029040394816547632, 0, 1, 0)
+_call74.Text = '2%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/3431533'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.029106436716392636, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02917152880690992, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.029239470418542624, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.029298863420262933, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.029364737728610635, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.029449385358020663, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.029508387250825763, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02956800376996398, 0, 1, 0)
+_call74.Text = '2%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/7266239'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.029648796143010258, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02969137141481042, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.02973858411423862, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.029777974588796496, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.029818873666226865, 0, 1, 0)
+_call74.Text = '2%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/2823889'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.029883853951469065, 0, 1, 0)
+_call74.Text = '2%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.029938777163624763, 0, 1, 0)
+_call74.Text = '2%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/3187761'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.030003310507163407, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03004582985304296, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03008628194220364, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03013505907729268, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/9369677'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.030190094001591207, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.030230713682249187, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/1206121'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.030303236888721587, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/7613562'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.030378944845870136, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/2414049'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.030452808970585464, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.030493316892534494, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.030548798805102705, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/6443593'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.030606012791395187, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.030651493417099118, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/Players/Assets/ID/4441848'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03071083058603108, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/2436495'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.030768603272736072, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.030810116929933427, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/8673796'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03086928646080196, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.030914990603923796, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/Players/Assets/ID/3348728'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.030970193166285753, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.031010589376091958, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.031057019857689737, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/2403088'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.031115071894600988, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.031159211602061986, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/9594914'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.031224583042785525, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.031272075092419985, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0313159354031086, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/1201544'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03136789733543992, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03140633795410395, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03145014243200421, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03148835957981646, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/6945128'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03154361797496676, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03158189100213349, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/Players/Assets/ID/4212282'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03164111641235649, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03168033929541707, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.031731016095727684, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/Players/Assets/ID/7673286'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03179230880923569, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.031845332309603694, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/5599096'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.031897070724517106, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/6248637'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03195054121315479, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.031996021838858725, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03205368281342089, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.032102068839594725, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/2258168'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.032178391423076394, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.032229626970365646, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/9682545'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03229052857495844, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/5719322'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.032354782521724704, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.032394564151763915, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/2687932'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03245306317694485, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03250033175572753, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.032549500046297905, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.032595315901562574, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/2164677'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03265990512445569, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03271080544218421, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03277053372003138, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03282607146538794, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/Players/Assets/ID/5281582'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.032896136259660126, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03295430005528033, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/3257375'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.033035874692723156, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/7138478'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0331161642447114, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/1750180'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03318756995722651, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03324813628569245, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/Players/Assets/ID/4990442'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03332457058131695, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/6472107'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03340296046808362, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/UI/Assets/ID/3692954'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03347453377209604, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03354253126308322, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/6174745'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03361930078826845, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03369478522799909, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03377088429406285, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.033834467828273776, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/Players/Assets/ID/1562534'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03391878018155694, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/UI/Assets/ID/3982666'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0339938735589385, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/Players/Assets/ID/5754091'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03407522467896342, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03412757767364383, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.034178310399875046, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03423362467437983, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.034295085025951265, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03435889198444784, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03441498852334916, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.034471811400726436, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03453701520338655, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/7444964'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.034617248876020315, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.034679603157565, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03473888444714248, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/6940152'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03480716124176979, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03487197398208082, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0349451117683202, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/7473138'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03503758162260055, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03510960191488266, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03518240447156131, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/UI/Assets/ID/1366578'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03527236003428698, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/Players/Assets/ID/5372104'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03536320957355201, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03543165405280888, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0354993162676692, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03556630802340806, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.035633746767416596, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03570582298561931, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03577192076481879, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03582567060366273, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03587925285100937, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.035934120137244466, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03598546744324267, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/Players/Assets/ID/4513021'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03606391316279769, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03612151825800538, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03617264209315181, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03624963508918881, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03632735447026789, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0363963017705828, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.036469774786382914, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.036545873852446675, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03661403893493116, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/9786862'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.036694328486919406, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/9535328'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03678037296049297, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03684714119881392, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03690664595924318, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/7589637'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03699609870091081, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03706040852703154, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.037115499330684545, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03717612158507109, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03725747270509601, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03732776097021997, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.037402630783617496, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/2753721'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03748951335437596, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03755427016876638, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/UI/Assets/ID/6458509'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03765210383571684, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.037727253045886755, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03778552864678204, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0378597280010581, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.037925378791987895, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03798499531112611, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0380494168959558, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03811842007562518, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03819440742954612, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/4610670'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03828922393731773, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.038354260148480535, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.038414379488676785, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03846919094212353, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.038525846181437375, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.038582110311836004, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.038638989068567754, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03869676175527274, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03874995289370418, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/UI/Assets/ID/6972219'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03882538145408034, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03888812684454024, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/7936344'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.038972159894183275, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03904440370388329, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/UI/Assets/ID/7371490'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0391311745159328, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/3836648'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03921571038663387, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/8951891'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.039306224696338175, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/UI/Assets/ID/2941911'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.039384111668914555, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03944160500541329, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03950032759457826, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/Players/Assets/ID/7250634'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.039578605676069856, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.039635819662362334, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/UI/Assets/ID/3165127'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03973588822409511, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03979578414000571, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03986523430794477, 0, 1, 0)
+_call74.Text = '3%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.03994228318333626, 0, 1, 0)
+_call74.Text = '3%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/5802450'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.040037043811753395, 0, 1, 0)
+_call74.Text = '4%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/9787080'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04013158096931875, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.040187174640595916, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04024494737386704, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04029668578878045, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04035010039806366, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04040234163403511, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.040466986736282705, 0, 1, 0)
+_call74.Text = '4%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/7530008'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.040563758835196494, 0, 1, 0)
+_call74.Text = '4%'
+_call82.Text = '/AdoptMe/UI/Assets/ID/7626886'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04065254107117653, 0, 1, 0)
+_call74.Text = '4%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/9430476'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04074322297237813, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04080848265439272, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04088128521107137, 0, 1, 0)
+_call74.Text = '4%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/1033675'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04096934110857546, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04102549348026514, 0, 1, 0)
+_call74.Text = '4%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/9501865'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04113919506780803, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04121512654237449, 0, 1, 0)
+_call74.Text = '4%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/1783764'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0412941868416965, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04135615001432598, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.041411911323666575, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04148158496245742, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04154555955901742, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04160668468102813, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04167261482216418, 0, 1, 0)
+_call74.Text = '4%'
+_call82.Text = '/AdoptMe/Players/Assets/ID/5176349'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0417746948543936, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04184682690538466, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.041932815499603746, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04201064663939178, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04209183012135327, 0, 1, 0)
+_call74.Text = '4%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/8860357'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04219100475311279, 0, 1, 0)
+_call74.Text = '4%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/8664134'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04229196729138494, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04236018825322389, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04242349239066243, 0, 1, 0)
+_call74.Text = '4%'
+_call82.Text = '/AdoptMe/UI/Assets/ID/6858382'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04250316731631756, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0425627279561013, 0, 1, 0)
+_call74.Text = '4%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/1276027'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.042654527351260185, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04272230132482946, 0, 1, 0)
+_call74.Text = '4%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/2650829'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04281890578567982, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04289165246300399, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04296685755252838, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.043043012451380494, 0, 1, 0)
+_call74.Text = '4%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/1994567'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.043146433448418973, 0, 1, 0)
+_call74.Text = '4%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/4573375'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.043251083604991435, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04332438902929425, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.043400879157707094, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04348474456928671, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.043557938234880564, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04362185699865222, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04369080429896712, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.043765506520867345, 0, 1, 0)
+_call74.Text = '4%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/1063969'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04385400940664112, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04392211860977113, 0, 1, 0)
+_call74.Text = '4%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/6235622'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.044030959252268076, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04411376309581101, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.044179022777825594, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04423439293168485, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.044291048170998694, 0, 1, 0)
+_call74.Text = '4%'
+_call82.Text = '/AdoptMe/UI/Assets/ID/7342861'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04438977581448853, 0, 1, 0)
+_call74.Text = '4%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/2131038'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.044474144093692304, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.044535604398697616, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04459700887091458, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.044665900291875005, 0, 1, 0)
+_call74.Text = '4%'
+_call82.Text = '/AdoptMe/Players/Assets/ID/8543946'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.044755520625039936, 0, 1, 0)
+_call74.Text = '4%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/2944078'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.044845532067120074, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04492699494585395, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04498191811144352, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04503751178272068, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04508880320936441, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04515965017490089, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04522016067057848, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.045274469256401065, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04533604132011533, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04538682992570102, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.045442479429766536, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04550539245828986, 0, 1, 0)
+_call74.Text = '4%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/4135300'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04558881088159979, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.045646304218098524, 0, 1, 0)
+_call74.Text = '4%'
+_call82.Text = '/AdoptMe/Players/Assets/ID/2352968'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04572804644703865, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04579844647087157, 0, 1, 0)
+_call74.Text = '4%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/3184820'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04588477029465139, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.045951706171035764, 0, 1, 0)
+_call74.Text = '4%'
+_call82.Text = '/AdoptMe/Players/Assets/ID/9853835'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04604188525117934, 0, 1, 0)
+_call74.Text = '4%'
+_call82.Text = '/AdoptMe/Players/Assets/ID/3348431'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04612429793924093, 0, 1, 0)
+_call74.Text = '4%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/2532508'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04620402874425054, 0, 1, 0)
+_call74.Text = '4%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/3072219'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04628889984451234, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.046357064973562956, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04641936337575316, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.046485070046037434, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0465553583111614, 0, 1, 0)
+_call74.Text = '4%'
+_call82.Text = '/AdoptMe/UI/Assets/ID/3126442'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04662687578238547, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04671057355590165, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04678639327175915, 0, 1, 0)
+_call74.Text = '4%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/9933306'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04688283009454608, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04696658374741673, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04705201359465718, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.047136549511924385, 0, 1, 0)
+_call74.Text = '4%'
+_call82.Text = '/AdoptMe/UI/Assets/ID/8284756'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04724382571876049, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04730226886458695, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.047375965397804976, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.047446197783574465, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04752838700078428, 0, 1, 0)
+_call74.Text = '4%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/7437917'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04762873495928943, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.047701760986819865, 0, 1, 0)
+_call74.Text = '4%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/5225868'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04780127084814012, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.047874967381358144, 0, 1, 0)
+_call74.Text = '4%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/8068428'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.047978891199454664, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04805381689220667, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.048131368681788446, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04819992487318814, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.048273118538782, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04835055852308869, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04841039855964482, 0, 1, 0)
+_call74.Text = '4%'
+_call82.Text = '/AdoptMe/UI/Assets/ID/8971541'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.048495828406885266, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.048554997937753794, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04861126206815243, 0, 1, 0)
+_call74.Text = '4%'
+_call82.Text = '/AdoptMe/UI/Assets/ID/6652838'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04869741825386882, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04876195159740746, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.048820171318948266, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0488832519389689, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04895253446884453, 0, 1, 0)
+_call74.Text = '4%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/8860550'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.049031930044293404, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04910791735164821, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04918133453465998, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04925570152699947, 0, 1, 0)
+_call74.Text = '4%'
+_call82.Text = '/AdoptMe/UI/Assets/ID/7905747'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0493461599573493, 0, 1, 0)
+_call74.Text = '4%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/6589713'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04943555677309632, 0, 1, 0)
+_call74.Text = '4%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/8078081'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04952679742127657, 0, 1, 0)
+_call74.Text = '4%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/6593842'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.049614182813093065, 0, 1, 0)
+_call74.Text = '4%'
+_call82.Text = '/AdoptMe/Players/Assets/ID/9405289'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.049691064096987245, 0, 1, 0)
+_call74.Text = '4%'
+_call82.Text = '/AdoptMe/UI/Assets/ID/3800200'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04978716569021344, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0498533193487674, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04991729399189353, 0, 1, 0)
+_call74.Text = '4%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.04997618412598968, 0, 1, 0)
+_call74.Text = '4%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/1705012'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05006943619810045, 0, 1, 0)
+_call74.Text = '5%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/1684650'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05015117847360671, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05022331052459776, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.050289687654003504, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05036310483701527, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05044182990677655, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05051033026538789, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.050582741666585204, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.050641967076808216, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.050701415957883, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05076097664423287, 0, 1, 0)
+_call74.Text = '5%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/8364007'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.050836069975048304, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05089132837019861, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05094965980388224, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.051004247786477205, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05105933854356408, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05111470874398947, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.051165609061717986, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.051237182412296536, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.051311325887218116, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0513923417776823, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.051456539891660213, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.051520291017368436, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.051580857345834376, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0516319811809808, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.051694335462525484, 0, 1, 0)
+_call74.Text = '5%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/1585405'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.051805802155286074, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05186452469788492, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.051918162824586035, 0, 1, 0)
+_call74.Text = '5%'
+_call82.Text = '/AdoptMe/UI/Assets/ID/8669580'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05199169171974063, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05204471522010863, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.052098353300243615, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05215657297521829, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05221116091124713, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05226390506140888, 0, 1, 0)
+_call74.Text = '5%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/6775070'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05233402573503554, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05239470382221043, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0524562758859247, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.052515724766999484, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05257271528244019, 0, 1, 0)
+_call74.Text = '5%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/8589576'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05265054637566209, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.052711168630048634, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05276927654631436, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05283660353161394, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05291532864794135, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.052987404819577935, 0, 1, 0)
+_call74.Text = '5%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/4103486'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05307238772511482, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05312948995269835, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05318631278350949, 0, 1, 0)
+_call74.Text = '5%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/5305867'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.053271854389458896, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05333096804097295, 0, 1, 0)
+_call74.Text = '5%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/6019055'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05340701122768223, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.053471376979723574, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05353697189129889, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05360228745266795, 0, 1, 0)
+_call74.Text = '5%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/9070860'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05368810840882361, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05375806144438684, 0, 1, 0)
+_call74.Text = '5%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/3155425'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05384310018271208, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.053921434190124275, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05398764368146658, 0, 1, 0)
+_call74.Text = '5%'
+_call82.Text = '/AdoptMe/Players/Assets/ID/8976999'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.054077543411403896, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05414492627605796, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.054195938352495435, 0, 1, 0)
+_call74.Text = '5%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/9540383'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.054274719301611186, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05434964499436319, 0, 1, 0)
+_call74.Text = '5%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/7897293'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05445954725146294, 0, 1, 0)
+_call74.Text = '5%'
+_call82.Text = '/AdoptMe/UI/Assets/ID/8432792'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05455397265031934, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.054626886965706944, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05470622666180134, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.054771430464461444, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05483819874934852, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05489937970414758, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05497028254903853, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05503397779539228, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0550956616178155, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05515494290739298, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0552089162170887, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05526730353012681, 0, 1, 0)
+_call74.Text = '5%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/5460180'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05534597276709974, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.055402516247704627, 0, 1, 0)
+_call74.Text = '5%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/5035495'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05549168959259987, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05555091500282287, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05561231947503984, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05567456199787557, 0, 1, 0)
+_call74.Text = '5%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/9588885'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05576971378177405, 0, 1, 0)
+_call74.Text = '5%'
+_call82.Text = '/AdoptMe/Players/Assets/ID/3256459'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05585257345810533, 0, 1, 0)
+_call74.Text = '5%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/4754369'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.055934706795960666, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05599214425310493, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05604567062109709, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05610718680545688, 0, 1, 0)
+_call74.Text = '5%'
+_call82.Text = '/AdoptMe/Players/Assets/ID/1606246'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.056184850307181476, 0, 1, 0)
+_call74.Text = '5%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/3046813'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.056261955108493564, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.056330790650099515, 0, 1, 0)
+_call74.Text = '5%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/9359675'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05640761605463922, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05646516527049243, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05651863575913012, 0, 1, 0)
+_call74.Text = '5%'
+_call82.Text = '/AdoptMe/Server/Assets/ID/8922346'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.056596411019563676, 0, 1, 0)
+_call74.Text = '5%'
+_call82.Text = '/AdoptMe/Trade/Assets/ID/6783793'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.056671951338648795, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.056724751368165016, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05678889355622232, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05684834248386324, 0, 1, 0)
+_call74.Text = '5%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/3515071'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.056920865643769504, 0, 1, 0)
+_call74.Text = '5%'
+_call82.Text = '/AdoptMe/Pets/Assets/ID/3071195'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05699540027417242, 0, 1, 0)
+_call74.Text = '5%'
+_call82.Text = '/AdoptMe/Toys/Assets/ID/8286685'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.0570720580406487, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.057127875229343775, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05718453046865761, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.057241576816886665, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05729778506793082, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05736114508472383, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.057422381918877365, 0, 1, 0)
+_call74.Text = '5%'
+
+task.wait(0.01)
+
+_call64.Size = UDim2.new(0.05748730637133122, 0, 1, 0)
+_call74.Text = '5%'
+_call82.Text = '/AdoptMe/Players/Assets/ID/8024869'
+
+task.wait(0.01)
+error("line 1: runtime error: internal 557: <25ms: infinitelooperror>\nstack traceback:\n\t[C]: in function 'error'\n\tinternal 557: in ?\n\tinternal 609: in function '__index'\n\tline 1: in ?\n\tline 1: in ?")
